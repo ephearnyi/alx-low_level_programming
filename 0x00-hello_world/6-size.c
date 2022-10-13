@@ -1,8 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - Prints the sizeof many var types
  * Return: Always 0 (success)
  */
+
 int main(void)
 {
 	printf("size of a char: %zu byte(s)\n", sizeof(char));
