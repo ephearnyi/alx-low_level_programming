@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * Main: printing random positive or negative numbers
+/*more headers go here*/
+/**
+ * main - printing positive or negatives
  * Return: Always (0) successful
  */
 int main(void)
