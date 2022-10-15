@@ -3,10 +3,11 @@
 /* more headers goes here*/
 
 /*
- * main - printing random positive or negative numbers
+ * Main: printing random positive or negative numbers
  * Return: Always (0) successful
  */
 int main(void)
+	/* Main function*/
 {
 	int n;
 
@@ -17,13 +18,13 @@ int main(void)
 	{
 		printf("%d is positive\n", n);
 	}
-	if (n == 0)
+	else if (n == 0)
 		/*If true, print)*/
 	{
 		printf("%d is zero\n", n);
 	}
-	if (n < 0)
-		/*If true, print)*/
+	else
+		/*If the 2 above false, print)*/
 	{
 		printf("%d is negative\n", n);
 	return (0);
