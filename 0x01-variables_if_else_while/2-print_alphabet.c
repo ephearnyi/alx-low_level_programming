@@ -2,18 +2,20 @@
 /* other headers appear here*/
 
 /**
- * main - Entry
- * return: (0) successful
+ * main - prints alpha in lower and upper case
+ * Return: (0) successful
  */
-
 int main(void)
 {
-	char lc;
+	char ch;
 
-	for (lc = "a"; lc <= "z"; lc++);
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(lc);
+		putchar(ch);
 	}
-	putchar("\n");
+	for (ch = 'A'; ch <= 'Z'; ch++)
+	{
+		putchar(ch);
+	}
 	return (0);
 }
