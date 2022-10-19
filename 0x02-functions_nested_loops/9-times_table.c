@@ -4,18 +4,18 @@
  */
 void times_table(void)
 {
-	int (num, times, result)
+	int (num, mult, result)
 
 	for (num = 0; num <= 9; num++)
 	{
 		_putchar('0');
 
-		for (times = 1; times <= 9; times++)
+		for (mult = 1; mult <= 9; mult++)
 		{
 			_putchar(',');
 			_putchar(' ');
 
-			result = num * times;
+			result = num * mult;
 
 			if (result <= 9)
 				_putchar(' ');
