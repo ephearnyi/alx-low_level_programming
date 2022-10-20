@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - list all natural numbers that are multiple of 3 or 5
  * Return: 0 always
