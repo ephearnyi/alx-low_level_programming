@@ -4,7 +4,6 @@
  * @n: number to multiply
  */
 void print_times_table(int n)
-
 {
 	int num, mult, prod;
 
