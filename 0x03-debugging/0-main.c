@@ -4,6 +4,7 @@
  * main - check positive or negative numbers
  * Return: 0 always
  */
+
 int main(void)
 {
 	int i;
