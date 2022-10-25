@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - Generate random valid pwords
@@ -23,7 +23,7 @@ int main(void)
 	if (sum != 2772)
 	{
 		diff_half1 = (sum - 2772) / 2;
-		diff_half@ = (sum - 2772) / 2;
+		diff_half2 = (sum - 2772) / 2;
 		if ((sum - 2772) % 2 != 0)
 			diff_half1++;
 
