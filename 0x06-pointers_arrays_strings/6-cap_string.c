@@ -4,7 +4,7 @@
  * @s: string
  * Return: address of s
  */
-char *cap_string(char *s)
+char *cap_string(char *)
 {
 	int i = 0, j;
 	char a[] = " \t\n,;.!?\"(){}";
