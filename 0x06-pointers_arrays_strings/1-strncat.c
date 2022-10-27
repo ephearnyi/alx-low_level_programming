@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strncpy - using strncpy t0 copy files with n bytes
+ * _strncat - using strncpy t0 copy files with n bytes
  * @dest: first char
  * @src: second char
  * @n: size in bytes
  * Return: pointer to the resulting string
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int i, j;
 
