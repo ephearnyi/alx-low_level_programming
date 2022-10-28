@@ -1,22 +1,22 @@
 #include "main.h"
 /**
  * leet - encodes a string into 1337
- * @s: string ti encode
+ * @str: string ti encode
  * Return: address of s
  */
-char leet(char *s)
+char leet(char *str)
 {
-	int i = 0, j;
-	char a[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
+	int indx1 = 0, indx2;
+	char leet[8] = {'O', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	while (s[i])
+	while (str[indx1])
 	{
-		for (j = 0; j <= 7; j++)
+		for (indx2 = 0; indx2 <= 7; indx2++)
 		{
-			if (s[i] == a[j] || s[i] - 32 == a[j])
-				s[i] = j + '0';
+			if (str[indx1] == leet[indx2] || str[indx1] - 32 == leet[indx2])
+				str[indx1] = indx2 + '0';
 		}
-		i++;
+		indx1++;
 	}
 	return (s);
 }
