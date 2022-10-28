@@ -1,8 +1,4 @@
 #include "main.h"
-/**
- * main - magic
- * Return: 0 always
- */
 
 int main(void)
 {
