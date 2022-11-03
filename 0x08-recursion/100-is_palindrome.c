@@ -30,7 +30,7 @@ int pal_checker(char *s, int i, int j)
 /**
  * is_palindrome - check palindrome
  * @s: base add
- * Return< 1 if n is prime, 0 otherwise
+ * Return: 1 if n is prime, 0 otherwise
  */
 int is_palindrome(char *s)
 {

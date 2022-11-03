@@ -15,7 +15,7 @@ int check(int a, int b)
 		return (check(a + 1, b));
 }
 /**
- * is_print_number - states if number is prime
+ * is_prime_number - states if number is prime
  * @n: int
  * Return: int
  */
@@ -23,5 +23,5 @@ int is_prime_number(int n)
 {
 	if (n == 2)
 		return (1);
-	return (check(a, n));
+	return (check(2, n));
 }
