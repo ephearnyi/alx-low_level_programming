@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-void util(char **, char *);
+void util(char **words, char str);
 void create_word(char **, char *, int, int, int);
 
 /**
