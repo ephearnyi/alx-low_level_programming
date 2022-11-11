@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stddef.h>
 /**
  * malloc_checked - allocates a memory space or terminate with status 98
  * @b: memory of interest

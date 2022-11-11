@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <stddef.h>
 /**
  * _calloc - allocates memory for elements of size and points to the memory
  * @size: size in bytes
