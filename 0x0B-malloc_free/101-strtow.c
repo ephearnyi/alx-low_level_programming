@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 
-void util(char **words, char str);
+void util(char **words, char *str);
 void create_word(char **, char *, int, int, int);
 
 /**
@@ -43,7 +43,7 @@ char **strtow(char *str)
  * @words: string array
  * @str: string
  */
-void util(char **words, char str)
+void util(char **words, char *str)
 {
 	int i, j, start, flag;
 
