@@ -4,7 +4,7 @@ size_t looped_listint_count(listint_t *head);
 size_t free_listint_safe(listint_t **h);
 
 /**
- * looped_listint_len - Counts the number of unique nodes in a list
+ * looped_listint_count - Counts the number of unique nodes in a list
  * @head: the pointer to the head
  * Return: The number of unique nodes in the list, 0 if list not looped
  */
