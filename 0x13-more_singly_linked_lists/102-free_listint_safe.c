@@ -8,7 +8,7 @@ size_t free_listint_safe(listint_t **h);
  * @head: the pointer to the head
  * Return: The number of unique nodes in the list, 0 if list not looped
  */
-size_t looped_listint_len(listint_t *head)
+size_t looped_listint_count(listint_t *head)
 {
 	listint_t *tortoise, *hare;
 	size_t nodes = 1;
